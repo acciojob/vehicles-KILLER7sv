@@ -64,7 +64,9 @@ public class Car extends Vehicle {
     public void setSeats(int seats) {
         this.seats = seats;
     }
+    public Car(){
 
+    }
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
         super(name);
         //Hint: Car extends Vehicle
